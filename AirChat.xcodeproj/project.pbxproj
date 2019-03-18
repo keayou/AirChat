@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		441E4CE1223F92BA00704B0D /* TODO in Resources */ = {isa = PBXBuildFile; fileRef = 441E4CE0223F92BA00704B0D /* TODO */; };
+		4453AD40223650EA0065CC90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4453AD3F223650EA0065CC90 /* AppDelegate.m */; };
+		4453AD46223650EA0065CC90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4453AD44223650EA0065CC90 /* Main.storyboard */; };
+		4453AD48223650EA0065CC90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4453AD47223650EA0065CC90 /* Assets.xcassets */; };
+		4453AD4B223650EA0065CC90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4453AD49223650EA0065CC90 /* LaunchScreen.storyboard */; };
+		4453AD4E223650EA0065CC90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4453AD4D223650EA0065CC90 /* main.m */; };
+		4453AD57223651600065CC90 /* KEPicturePickManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4453AD56223651600065CC90 /* KEPicturePickManager.m */; };
+		4453AD5D223664710065CC90 /* KEBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4453AD5C223664710065CC90 /* KEBaseViewController.m */; };
+		4453AD60223665300065CC90 /* KEMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4453AD5F223665300065CC90 /* KEMainViewController.m */; };
+		4453AD67223667090065CC90 /* KEMainVCCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4453AD66223667090065CC90 /* KEMainVCCollectionView.m */; };
+		4453AD9B223669A90065CC90 /* UIImage+BufferData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4453AD6C223669A80065CC90 /* UIImage+BufferData.m */; };
+		4453AD9C223669A90065CC90 /* UIImage+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 4453AD6F223669A80065CC90 /* UIImage+Base64.m */; };
+		4453AD9E223669A90065CC90 /* UIImage+compressImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4453AD72223669A90065CC90 /* UIImage+compressImage.m */; };
+		4453AD9F223669A90065CC90 /* UIImage+ResizedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4453AD73223669A90065CC90 /* UIImage+ResizedImage.m */; };
+		4453ADA0223669A90065CC90 /* UIImage+Scale.m in Sources */ = {isa = PBXBuildFile; fileRef = 4453AD74223669A90065CC90 /* UIImage+Scale.m */; };
+		4453ADA1223669A90065CC90 /* UIImage+UIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4453AD78223669A90065CC90 /* UIImage+UIColor.m */; };
+		4453ADA2223669A90065CC90 /* UIButton+EnlargeTouchArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 4453AD7C223669A90065CC90 /* UIButton+EnlargeTouchArea.m */; };
+		4453ADA3223669A90065CC90 /* UIColor+ColorWithHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 4453AD7F223669A90065CC90 /* UIColor+ColorWithHex.m */; };
+		4453ADA4223669A90065CC90 /* UIView+MotionEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 4453AD81223669A90065CC90 /* UIView+MotionEffect.m */; };
+		4453ADA5223669A90065CC90 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4453AD82223669A90065CC90 /* UIView+Additions.m */; };
+		4453ADA6223669A90065CC90 /* UIView+Shadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 4453AD84223669A90065CC90 /* UIView+Shadow.m */; };
+		4453ADA7223669A90065CC90 /* UIView+Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 4453AD86223669A90065CC90 /* UIView+Helpers.m */; };
+		4453ADA8223669A90065CC90 /* UIView+Screenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 4453AD89223669A90065CC90 /* UIView+Screenshot.m */; };
+		4453ADA9223669A90065CC90 /* NSNull+BadServerCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 4453AD8D223669A90065CC90 /* NSNull+BadServerCase.m */; };
+		4453ADAA223669A90065CC90 /* NSData+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 4453AD92223669A90065CC90 /* NSData+Utility.m */; };
+		4453ADAB223669A90065CC90 /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 4453AD93223669A90065CC90 /* NSData+CommonCrypto.m */; };
+		4453ADAC223669A90065CC90 /* NSString+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 4453AD95223669A90065CC90 /* NSString+Utility.m */; };
+		4453ADAD223669A90065CC90 /* UIViewController+AVAuthorizationStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 4453AD98223669A90065CC90 /* UIViewController+AVAuthorizationStatus.m */; };
+		4453ADAE223669A90065CC90 /* UIDevice+DeviceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4453AD9A223669A90065CC90 /* UIDevice+DeviceModel.m */; };
+		4453ADB22236813B0065CC90 /* KEMainVCCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4453ADB12236813B0065CC90 /* KEMainVCCollectionCell.m */; };
+		4453ADB5223687720065CC90 /* KERootTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4453ADB4223687720065CC90 /* KERootTabBar.m */; };
+		4453ADB822368F210065CC90 /* KETabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4453ADB722368F210065CC90 /* KETabBarViewController.m */; };
+		4453ADBB2238AB110065CC90 /* KEPictureShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4453ADBA2238AB110065CC90 /* KEPictureShareManager.m */; };
+		4453ADBE2238B9D10065CC90 /* KEOptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4453ADBD2238B9D10065CC90 /* KEOptionViewController.m */; };
+		4453ADC12238BB170065CC90 /* KEBaseNaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4453ADC02238BB170065CC90 /* KEBaseNaviViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		441E4CE0223F92BA00704B0D /* TODO */ = {isa = PBXFileReference; lastKnownFileType = text; path = TODO; sourceTree = "<group>"; };
+		4453AD3B223650EA0065CC90 /* AirChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4453AD3E223650EA0065CC90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4453AD3F223650EA0065CC90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4453AD45223650EA0065CC90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4453AD47223650EA0065CC90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4453AD4A223650EA0065CC90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4453AD4C223650EA0065CC90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4453AD4D223650EA0065CC90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4453AD55223651600065CC90 /* KEPicturePickManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KEPicturePickManager.h; sourceTree = "<group>"; };
+		4453AD56223651600065CC90 /* KEPicturePickManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KEPicturePickManager.m; sourceTree = "<group>"; };
+		4453AD5B223664710065CC90 /* KEBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KEBaseViewController.h; sourceTree = "<group>"; };
+		4453AD5C223664710065CC90 /* KEBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KEBaseViewController.m; sourceTree = "<group>"; };
+		4453AD5E223665300065CC90 /* KEMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KEMainViewController.h; sourceTree = "<group>"; };
+		4453AD5F223665300065CC90 /* KEMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KEMainViewController.m; sourceTree = "<group>"; };
+		4453AD65223667090065CC90 /* KEMainVCCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KEMainVCCollectionView.h; sourceTree = "<group>"; };
+		4453AD66223667090065CC90 /* KEMainVCCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KEMainVCCollectionView.m; sourceTree = "<group>"; };
+		4453AD682236681A0065CC90 /* KEConstantsMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KEConstantsMacro.h; sourceTree = "<group>"; };
+		4453AD69223668750065CC90 /* KEPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KEPrefixHeader.pch; sourceTree = "<group>"; };
+		4453AD6C223669A80065CC90 /* UIImage+BufferData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BufferData.m"; sourceTree = "<group>"; };
+		4453AD6D223669A80065CC90 /* UIImage+Scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Scale.h"; sourceTree = "<group>"; };
+		4453AD6E223669A80065CC90 /* UIImage+ResizedImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ResizedImage.h"; sourceTree = "<group>"; };
+		4453AD6F223669A80065CC90 /* UIImage+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Base64.m"; sourceTree = "<group>"; };
+		4453AD71223669A90065CC90 /* UIImage+UIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+UIColor.h"; sourceTree = "<group>"; };
+		4453AD72223669A90065CC90 /* UIImage+compressImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+compressImage.m"; sourceTree = "<group>"; };
+		4453AD73223669A90065CC90 /* UIImage+ResizedImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ResizedImage.m"; sourceTree = "<group>"; };
+		4453AD74223669A90065CC90 /* UIImage+Scale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Scale.m"; sourceTree = "<group>"; };
+		4453AD75223669A90065CC90 /* UIImage+BufferData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BufferData.h"; sourceTree = "<group>"; };
+		4453AD76223669A90065CC90 /* UIImage+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Base64.h"; sourceTree = "<group>"; };
+		4453AD77223669A90065CC90 /* UIImage+compressImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+compressImage.h"; sourceTree = "<group>"; };
+		4453AD78223669A90065CC90 /* UIImage+UIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+UIColor.m"; sourceTree = "<group>"; };
+		4453AD7B223669A90065CC90 /* UIButton+EnlargeTouchArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+EnlargeTouchArea.h"; sourceTree = "<group>"; };
+		4453AD7C223669A90065CC90 /* UIButton+EnlargeTouchArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+EnlargeTouchArea.m"; sourceTree = "<group>"; };
+		4453AD7E223669A90065CC90 /* UIColor+ColorWithHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorWithHex.h"; sourceTree = "<group>"; };
+		4453AD7F223669A90065CC90 /* UIColor+ColorWithHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorWithHex.m"; sourceTree = "<group>"; };
+		4453AD81223669A90065CC90 /* UIView+MotionEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MotionEffect.m"; sourceTree = "<group>"; };
+		4453AD82223669A90065CC90 /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
+		4453AD83223669A90065CC90 /* UIView+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Helpers.h"; sourceTree = "<group>"; };
+		4453AD84223669A90065CC90 /* UIView+Shadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Shadow.m"; sourceTree = "<group>"; };
+		4453AD85223669A90065CC90 /* UIView+Screenshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Screenshot.h"; sourceTree = "<group>"; };
+		4453AD86223669A90065CC90 /* UIView+Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Helpers.m"; sourceTree = "<group>"; };
+		4453AD87223669A90065CC90 /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
+		4453AD88223669A90065CC90 /* UIView+MotionEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MotionEffect.h"; sourceTree = "<group>"; };
+		4453AD89223669A90065CC90 /* UIView+Screenshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Screenshot.m"; sourceTree = "<group>"; };
+		4453AD8A223669A90065CC90 /* UIView+Shadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Shadow.h"; sourceTree = "<group>"; };
+		4453AD8B223669A90065CC90 /* UIDevice+DeviceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+DeviceModel.h"; sourceTree = "<group>"; };
+		4453AD8D223669A90065CC90 /* NSNull+BadServerCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNull+BadServerCase.m"; sourceTree = "<group>"; };
+		4453AD8E223669A90065CC90 /* NSNull+BadServerCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNull+BadServerCase.h"; sourceTree = "<group>"; };
+		4453AD90223669A90065CC90 /* NSData+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Utility.h"; sourceTree = "<group>"; };
+		4453AD91223669A90065CC90 /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CommonCrypto.h"; sourceTree = "<group>"; };
+		4453AD92223669A90065CC90 /* NSData+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Utility.m"; sourceTree = "<group>"; };
+		4453AD93223669A90065CC90 /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonCrypto.m"; sourceTree = "<group>"; };
+		4453AD95223669A90065CC90 /* NSString+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utility.m"; sourceTree = "<group>"; };
+		4453AD96223669A90065CC90 /* NSString+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Utility.h"; sourceTree = "<group>"; };
+		4453AD98223669A90065CC90 /* UIViewController+AVAuthorizationStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AVAuthorizationStatus.m"; sourceTree = "<group>"; };
+		4453AD99223669A90065CC90 /* UIViewController+AVAuthorizationStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AVAuthorizationStatus.h"; sourceTree = "<group>"; };
+		4453AD9A223669A90065CC90 /* UIDevice+DeviceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+DeviceModel.m"; sourceTree = "<group>"; };
+		4453ADB02236813B0065CC90 /* KEMainVCCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KEMainVCCollectionCell.h; sourceTree = "<group>"; };
+		4453ADB12236813B0065CC90 /* KEMainVCCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KEMainVCCollectionCell.m; sourceTree = "<group>"; };
+		4453ADB3223687720065CC90 /* KERootTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KERootTabBar.h; sourceTree = "<group>"; };
+		4453ADB4223687720065CC90 /* KERootTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KERootTabBar.m; sourceTree = "<group>"; };
+		4453ADB622368F210065CC90 /* KETabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KETabBarViewController.h; sourceTree = "<group>"; };
+		4453ADB722368F210065CC90 /* KETabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KETabBarViewController.m; sourceTree = "<group>"; };
+		4453ADB92238AB110065CC90 /* KEPictureShareManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KEPictureShareManager.h; sourceTree = "<group>"; };
+		4453ADBA2238AB110065CC90 /* KEPictureShareManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KEPictureShareManager.m; sourceTree = "<group>"; };
+		4453ADBC2238B9D10065CC90 /* KEOptionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KEOptionViewController.h; sourceTree = "<group>"; };
+		4453ADBD2238B9D10065CC90 /* KEOptionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KEOptionViewController.m; sourceTree = "<group>"; };
+		4453ADBF2238BB170065CC90 /* KEBaseNaviViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KEBaseNaviViewController.h; sourceTree = "<group>"; };
+		4453ADC02238BB170065CC90 /* KEBaseNaviViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KEBaseNaviViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4453AD38223650EA0065CC90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4453AD32223650EA0065CC90 = {
+			isa = PBXGroup;
+			children = (
+				4453AD3D223650EA0065CC90 /* AirChat */,
+				4453AD3C223650EA0065CC90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4453AD3C223650EA0065CC90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4453AD3B223650EA0065CC90 /* AirChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4453AD3D223650EA0065CC90 /* AirChat */ = {
+			isa = PBXGroup;
+			children = (
+				4453AD3E223650EA0065CC90 /* AppDelegate.h */,
+				4453AD3F223650EA0065CC90 /* AppDelegate.m */,
+				4453AD592236644B0065CC90 /* Common */,
+				4453AD54223651070065CC90 /* Manager */,
+				4453AD58223663EA0065CC90 /* Controller */,
+				4453AD612236659C0065CC90 /* View */,
+				4453AD44223650EA0065CC90 /* Main.storyboard */,
+				4453AD47223650EA0065CC90 /* Assets.xcassets */,
+				4453AD49223650EA0065CC90 /* LaunchScreen.storyboard */,
+				4453AD4C223650EA0065CC90 /* Info.plist */,
+				4453AD4D223650EA0065CC90 /* main.m */,
+				4453AD682236681A0065CC90 /* KEConstantsMacro.h */,
+				4453AD69223668750065CC90 /* KEPrefixHeader.pch */,
+				441E4CE0223F92BA00704B0D /* TODO */,
+			);
+			path = AirChat;
+			sourceTree = "<group>";
+		};
+		4453AD54223651070065CC90 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				4453AD55223651600065CC90 /* KEPicturePickManager.h */,
+				4453AD56223651600065CC90 /* KEPicturePickManager.m */,
+				4453ADB92238AB110065CC90 /* KEPictureShareManager.h */,
+				4453ADBA2238AB110065CC90 /* KEPictureShareManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		4453AD58223663EA0065CC90 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4453ADB622368F210065CC90 /* KETabBarViewController.h */,
+				4453ADB722368F210065CC90 /* KETabBarViewController.m */,
+				4453AD5E223665300065CC90 /* KEMainViewController.h */,
+				4453AD5F223665300065CC90 /* KEMainViewController.m */,
+				4453ADBC2238B9D10065CC90 /* KEOptionViewController.h */,
+				4453ADBD2238B9D10065CC90 /* KEOptionViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4453AD592236644B0065CC90 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4453AD6A223669A80065CC90 /* Category */,
+				4453AD5A223664560065CC90 /* Controller */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		4453AD5A223664560065CC90 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4453AD5B223664710065CC90 /* KEBaseViewController.h */,
+				4453AD5C223664710065CC90 /* KEBaseViewController.m */,
+				4453ADBF2238BB170065CC90 /* KEBaseNaviViewController.h */,
+				4453ADC02238BB170065CC90 /* KEBaseNaviViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4453AD612236659C0065CC90 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4453ADB3223687720065CC90 /* KERootTabBar.h */,
+				4453ADB4223687720065CC90 /* KERootTabBar.m */,
+				4453AD65223667090065CC90 /* KEMainVCCollectionView.h */,
+				4453AD66223667090065CC90 /* KEMainVCCollectionView.m */,
+				4453ADAF223681070065CC90 /* Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4453AD6A223669A80065CC90 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				4453AD6B223669A80065CC90 /* UIImage */,
+				4453AD7A223669A90065CC90 /* UIButton */,
+				4453AD7D223669A90065CC90 /* UIColor */,
+				4453AD80223669A90065CC90 /* UIView */,
+				4453AD8C223669A90065CC90 /* Other */,
+				4453AD8F223669A90065CC90 /* NSData */,
+				4453AD94223669A90065CC90 /* NSString */,
+				4453AD97223669A90065CC90 /* UIViewController */,
+				4453AD8B223669A90065CC90 /* UIDevice+DeviceModel.h */,
+				4453AD9A223669A90065CC90 /* UIDevice+DeviceModel.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		4453AD6B223669A80065CC90 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				4453AD6C223669A80065CC90 /* UIImage+BufferData.m */,
+				4453AD6D223669A80065CC90 /* UIImage+Scale.h */,
+				4453AD6E223669A80065CC90 /* UIImage+ResizedImage.h */,
+				4453AD6F223669A80065CC90 /* UIImage+Base64.m */,
+				4453AD71223669A90065CC90 /* UIImage+UIColor.h */,
+				4453AD72223669A90065CC90 /* UIImage+compressImage.m */,
+				4453AD73223669A90065CC90 /* UIImage+ResizedImage.m */,
+				4453AD74223669A90065CC90 /* UIImage+Scale.m */,
+				4453AD75223669A90065CC90 /* UIImage+BufferData.h */,
+				4453AD76223669A90065CC90 /* UIImage+Base64.h */,
+				4453AD77223669A90065CC90 /* UIImage+compressImage.h */,
+				4453AD78223669A90065CC90 /* UIImage+UIColor.m */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		4453AD7A223669A90065CC90 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				4453AD7B223669A90065CC90 /* UIButton+EnlargeTouchArea.h */,
+				4453AD7C223669A90065CC90 /* UIButton+EnlargeTouchArea.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		4453AD7D223669A90065CC90 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				4453AD7E223669A90065CC90 /* UIColor+ColorWithHex.h */,
+				4453AD7F223669A90065CC90 /* UIColor+ColorWithHex.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		4453AD80223669A90065CC90 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				4453AD81223669A90065CC90 /* UIView+MotionEffect.m */,
+				4453AD82223669A90065CC90 /* UIView+Additions.m */,
+				4453AD83223669A90065CC90 /* UIView+Helpers.h */,
+				4453AD84223669A90065CC90 /* UIView+Shadow.m */,
+				4453AD85223669A90065CC90 /* UIView+Screenshot.h */,
+				4453AD86223669A90065CC90 /* UIView+Helpers.m */,
+				4453AD87223669A90065CC90 /* UIView+Additions.h */,
+				4453AD88223669A90065CC90 /* UIView+MotionEffect.h */,
+				4453AD89223669A90065CC90 /* UIView+Screenshot.m */,
+				4453AD8A223669A90065CC90 /* UIView+Shadow.h */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		4453AD8C223669A90065CC90 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				4453AD8D223669A90065CC90 /* NSNull+BadServerCase.m */,
+				4453AD8E223669A90065CC90 /* NSNull+BadServerCase.h */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		4453AD8F223669A90065CC90 /* NSData */ = {
+			isa = PBXGroup;
+			children = (
+				4453AD90223669A90065CC90 /* NSData+Utility.h */,
+				4453AD91223669A90065CC90 /* NSData+CommonCrypto.h */,
+				4453AD92223669A90065CC90 /* NSData+Utility.m */,
+				4453AD93223669A90065CC90 /* NSData+CommonCrypto.m */,
+			);
+			path = NSData;
+			sourceTree = "<group>";
+		};
+		4453AD94223669A90065CC90 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				4453AD95223669A90065CC90 /* NSString+Utility.m */,
+				4453AD96223669A90065CC90 /* NSString+Utility.h */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		4453AD97223669A90065CC90 /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4453AD98223669A90065CC90 /* UIViewController+AVAuthorizationStatus.m */,
+				4453AD99223669A90065CC90 /* UIViewController+AVAuthorizationStatus.h */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		4453ADAF223681070065CC90 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4453ADB02236813B0065CC90 /* KEMainVCCollectionCell.h */,
+				4453ADB12236813B0065CC90 /* KEMainVCCollectionCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4453AD3A223650EA0065CC90 /* AirChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4453AD51223650EA0065CC90 /* Build configuration list for PBXNativeTarget "AirChat" */;
+			buildPhases = (
+				4453AD37223650EA0065CC90 /* Sources */,
+				4453AD38223650EA0065CC90 /* Frameworks */,
+				4453AD39223650EA0065CC90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirChat;
+			productName = AirChat;
+			productReference = 4453AD3B223650EA0065CC90 /* AirChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4453AD33223650EA0065CC90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KE;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = fk;
+				TargetAttributes = {
+					4453AD3A223650EA0065CC90 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 4453AD36223650EA0065CC90 /* Build configuration list for PBXProject "AirChat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4453AD32223650EA0065CC90;
+			productRefGroup = 4453AD3C223650EA0065CC90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4453AD3A223650EA0065CC90 /* AirChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4453AD39223650EA0065CC90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4453AD4B223650EA0065CC90 /* LaunchScreen.storyboard in Resources */,
+				4453AD48223650EA0065CC90 /* Assets.xcassets in Resources */,
+				441E4CE1223F92BA00704B0D /* TODO in Resources */,
+				4453AD46223650EA0065CC90 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4453AD37223650EA0065CC90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4453ADA5223669A90065CC90 /* UIView+Additions.m in Sources */,
+				4453ADA7223669A90065CC90 /* UIView+Helpers.m in Sources */,
+				4453AD67223667090065CC90 /* KEMainVCCollectionView.m in Sources */,
+				4453ADA2223669A90065CC90 /* UIButton+EnlargeTouchArea.m in Sources */,
+				4453ADAC223669A90065CC90 /* NSString+Utility.m in Sources */,
+				4453ADAE223669A90065CC90 /* UIDevice+DeviceModel.m in Sources */,
+				4453ADB822368F210065CC90 /* KETabBarViewController.m in Sources */,
+				4453ADBE2238B9D10065CC90 /* KEOptionViewController.m in Sources */,
+				4453ADA8223669A90065CC90 /* UIView+Screenshot.m in Sources */,
+				4453AD4E223650EA0065CC90 /* main.m in Sources */,
+				4453ADC12238BB170065CC90 /* KEBaseNaviViewController.m in Sources */,
+				4453ADA3223669A90065CC90 /* UIColor+ColorWithHex.m in Sources */,
+				4453AD9B223669A90065CC90 /* UIImage+BufferData.m in Sources */,
+				4453AD9F223669A90065CC90 /* UIImage+ResizedImage.m in Sources */,
+				4453ADAA223669A90065CC90 /* NSData+Utility.m in Sources */,
+				4453AD5D223664710065CC90 /* KEBaseViewController.m in Sources */,
+				4453ADAD223669A90065CC90 /* UIViewController+AVAuthorizationStatus.m in Sources */,
+				4453ADA4223669A90065CC90 /* UIView+MotionEffect.m in Sources */,
+				4453ADBB2238AB110065CC90 /* KEPictureShareManager.m in Sources */,
+				4453AD9C223669A90065CC90 /* UIImage+Base64.m in Sources */,
+				4453ADA1223669A90065CC90 /* UIImage+UIColor.m in Sources */,
+				4453AD60223665300065CC90 /* KEMainViewController.m in Sources */,
+				4453AD40223650EA0065CC90 /* AppDelegate.m in Sources */,
+				4453ADA6223669A90065CC90 /* UIView+Shadow.m in Sources */,
+				4453ADAB223669A90065CC90 /* NSData+CommonCrypto.m in Sources */,
+				4453ADB5223687720065CC90 /* KERootTabBar.m in Sources */,
+				4453ADB22236813B0065CC90 /* KEMainVCCollectionCell.m in Sources */,
+				4453AD57223651600065CC90 /* KEPicturePickManager.m in Sources */,
+				4453ADA9223669A90065CC90 /* NSNull+BadServerCase.m in Sources */,
+				4453ADA0223669A90065CC90 /* UIImage+Scale.m in Sources */,
+				4453AD9E223669A90065CC90 /* UIImage+compressImage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4453AD44223650EA0065CC90 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4453AD45223650EA0065CC90 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4453AD49223650EA0065CC90 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4453AD4A223650EA0065CC90 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4453AD4F223650EA0065CC90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4453AD50223650EA0065CC90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4453AD52223650EA0065CC90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JC5ZKJT82S;
+				GCC_PREFIX_HEADER = AirChat/KEPrefixHeader.pch;
+				INFOPLIST_FILE = AirChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FK.AirChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4453AD53223650EA0065CC90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JC5ZKJT82S;
+				GCC_PREFIX_HEADER = AirChat/KEPrefixHeader.pch;
+				INFOPLIST_FILE = AirChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FK.AirChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4453AD36223650EA0065CC90 /* Build configuration list for PBXProject "AirChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4453AD4F223650EA0065CC90 /* Debug */,
+				4453AD50223650EA0065CC90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4453AD51223650EA0065CC90 /* Build configuration list for PBXNativeTarget "AirChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4453AD52223650EA0065CC90 /* Debug */,
+				4453AD53223650EA0065CC90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4453AD33223650EA0065CC90 /* Project object */;
+}

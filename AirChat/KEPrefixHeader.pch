@@ -1,0 +1,24 @@
+//
+//  KEPrefixHeader.pch
+//  AirChat
+//
+//  Created by fk on 2019/3/11.
+//  Copyright © 2019 fk. All rights reserved.
+//
+
+#ifndef KEPrefixHeader_pch
+#define KEPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#import "UIColor+ColorWithHex.h"
+#import "UIView+Additions.h"
+
+#import "KEConstantsMacro.h"
+
+#import "KEBaseNaviViewController.h"
+
+
+#endif /* KEPrefixHeader_pch */
